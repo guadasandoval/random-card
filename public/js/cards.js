@@ -1,0 +1,26 @@
+var CardsTarotInfo = [
+    {index: 0, nameCard:'El Loco', descripcion:'Indicador de la novedad; asi como de pureza y gran energía, sin dobleces, como el corazó abierto de un niño', imgCard:'./images/0.png'},
+    {index: 1, nameCard:'El Mago', descripcion:'Tu creatividad, empeño y fuerza de voluntad están al máximo servicio de tus deseos. Significa nuevos comienzos y grandes expectativas', imgCard:'./images/1.png'},
+    {index: 2, nameCard:'La Papisa', descripcion:'Representa la posibilidad de embarazos, la figura de la madre. Muestra a una persona que tiene conocimientos que guarda, no dice todo lo que sabe', imgCard:'./images/2.png'},
+    {index: 3, nameCard:'La Emperatriz', descripcion:'Augura una necesidad de estar en contacto con nuestro lado femenino para escuchar nuestra intuición, y dar prioridad a nuestras emociones y pasiones', imgCard:'./images/3.png'},
+    {index: 4, nameCard:'El Emperador', descripcion:'Sugiere estabilidad, el disfrute de los logros materiales, la posición social y la fortuna, lo sólido de todo lo que se ha conseguido', imgCard:'./images/4.png'},
+    {index: 5, nameCard:'El Papa', descripcion:'Tiene que ver con hacer lo correcto. Compromisos en el amor', imgCard:'./images/5.png'},
+    {index: 6, nameCard:'Los Enamorados', descripcion:'Representa la unión, las relaciones, las similitudes de valores, las opciones', imgCard:'./images/6.png'},
+    {index: 7, nameCard:'El Carro', descripcion:'Representa la fuerza de voluntad, la victoria, la afirmación, la determinación y la desición. Viajes o mudanzas', imgCard:'./images/7.png'},
+    {index: 8, nameCard:'La Justicia', descripcion:'El equilibrio, la justicia, la verdad, la causa y efecto, la ley y las normas', imgCard:'./images/8.png'},
+    {index: 9, nameCard:'El Ermitaño', descripcion:'El examen de la conciencia, la soledad como auto-conocimiento, la guía interna, el estudio', imgCard:'./images/9.png'},
+    {index: 10, nameCard:'La Rueda de la Fortuna', descripcion:'Buena suerte, el karma, los ciclos de la vida, el destino, cambios venideros significativos', imgCard:'./images/10.png'},
+    {index: 11, nameCard:'La Fuerza', descripcion:'Representa la fortaleza, el coraje, la paciencia, el control', imgCard:'./images/11.png'},
+    {index: 12, nameCard:'El Colgado', descripcion:'Estar em suspenso, postergación de planes y metas, las resticción, el dejar ir, el sacrificar por algo o por otros', imgCard:'./images/12.png'},
+    {index: 13, nameCard:'La Muerte', descripcion:'Principios de cosas, el cambio, la tranformación y los finales de ciclos', imgCard:'./images/13.png'},
+    {index: 14, nameCard:'La Templanza', descripcion:'Estar en balance, la paciencia, el propósito, la paciencia', imgCard:'./images/14.png'},
+    {index: 15, nameCard:'El Diablo', descripcion:'Indica enfrentamientos, luchas o conflictos, la sensación e desdicha, las adicciones de todo tipo', imgCard:'./images/15.png'},
+    {index: 16, nameCard:'La Torre', descripcion:'Los desastres como algo positivo, la agitación interna, el cambio repentino, las revelaciones', imgCard:'./images/16.png'},
+    {index: 17, nameCard:'La Estrella', descripcion:'Esperanza, la espiritualidad, la renovación interna, la inspiración y la serenidad', imgCard:'./images/17.png'},
+    {index: 18, nameCard:'La Luna', descripcion:'Ilusión como el miedo, la ansiedad, la inseguridad, el subconsciente, lo que está en nuestra parte oscura', imgCard:'./images/18.png'},
+    {index: 19, nameCard:'El Sol', descripcion:'Buenos augurios, diversión, el éxito, todo es tranquilidad y felicidad', imgCard:'./images/19.png'},
+    {index: 20, nameCard:'El Juicio', descripcion:'Un renacimiento, el llamado interno, la absolución y perdon', imgCard:'./images/20.png'},
+    {index: 21, nameCard:'El Mundo', descripcion:'Finalización de procesos, integración con la gente y lugares de vida, la realización, los viajes', imgCard:'./images/21.png'},
+]
+
+export { CardsTarotInfo };

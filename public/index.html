@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La emperatriz</title>
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&family=Red+Rose:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="robots" content="index"/> 
+    <meta name="robots" content="follow"/>
+    <link rel="icon" href="./images/favicon.png" type="image/jpeg"/>
+    <meta name="description" content="Juego de azar con cartas de tarot. 21 arcanos mayores"/>
+    <meta name="keywords" content="tarot, azar, arcanos, juego, suerte, random"/>
+    <meta name="author" content="Guadalupe Sandoval"/>
+    <meta name="copyright" content="Guadalupe Sandoval"/>
+    <!-- FACEBOOK -->
+    <meta property="og:url"                content="https://winterkack-retocuatro.web.app" />
+    <meta property="og:type"               content="Juego de cartas" />
+    <meta property="og:title"              content="La emperatriz" />
+    <meta property="og:description"        content="Juego de azar con cartas de tarot. 21 arcanos mayores" />
+    <meta property="og:image"              content="./images/favicon.jpg"/>
+    <!-- TWITTER -->
+    <meta property="twitter:url"                content="https://winterkack-retocuatro.web.app" />
+    <meta property="twitter:type"               content="Juego de cartas" />
+    <meta property="twitter:title"              content="La emperatriz" />
+    <meta property="twitter:description"        content="Juego de azar con cartas de tarot. 21 arcanos mayores" />
+    <meta property="twitter:image"              content="./images/favicon.jpg"/>
+</head>
+<body>
+    <div class="container-flex" id="body">
+        <section id="home" class="on home">
+            <h1 class="home-tittle">LA EMPERATRIZ</h1>
+            <div class="center">
+                <img src="./images/favicon.png" alt="ojo abierto con destello detras" class="logo">
+                <input type="text" placeholder="Consultante 1">
+                <input type="text" placeholder="Consultante 2">
+                <button id="start">Probar mi suerte</button>   
+                    <button id="otherGames">Ver consultas anteriores</button>
+            </div>
+        </section>
+        <section id="sectionCard" class="off">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carouselCards">
+             
+            </div>
+          
+          </div>
+        </section>
+        <section id="savedGames" class="off">
+          <div class="center">
+            <h1 class="games-tittle" style="color: #334FEF;">Otras consultas</h1>
+          </div>
+            <div id="divGamesList"></div>
+            <div class="center">
+            <button class="button-view" id="tryAgain" style="width: 200px;">Consultar de nuevo</button>
+          </div>
+        </section>
+
+<!-- Modal ok-->
+<div class="modal fade" id="modalOK" tabindex="-1" aria-labelledby="modalOKLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #fb0414;">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalOKLabel">Enhorabuena!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body center">
+        <img src="./images/modalOK.png" alt="" class="img-modal">
+        <p style="color: #fff;">Hay potencial</p>
+      </div>
+      <div class="modal-footer center">
+        <button type="button" id='closeOK' class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+        <button type="button" id='savedOK' class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal ok-->
+<div class="modal fade" id="modalERR" tabindex="-1" aria-labelledby="modalERRLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color: #212121;">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="modalERRLabel">Quizás en otra vida!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body center">
+        <img src="./images/modalERR.png" alt="" class="img-modal">
+        <p style="color: #fff;">Mirá para otro lado...</p>
+      </div>
+      <div class="modal-footer center">
+        <button type="button" id='closeERR' class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+        <button type="button" id='savedERR' class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
